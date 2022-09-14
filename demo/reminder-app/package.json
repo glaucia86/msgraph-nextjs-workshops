@@ -1,0 +1,29 @@
+{
+  "name": "reminder-app",
+  "version": "1.0.0",
+  "description": "A Take a Break Reminder App with intention to teach how to use Microsoft Graph JS SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "take-break-reminder-app",
+    "tutorial",
+    "javascript",
+    "typescript",
+    "microsoft-graph",
+    "azure",
+    "azure-web-app",
+    "azure-app-service",
+    "aswa",
+    "azure-static-web-apps",
+    "azure-functions",
+    "serverless"
+  ],
+  "author": "Glaucia Lemos <@glaucia_lemos - Twitter>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glaucia86/take-break-reminder-app/issues"
+  },
+  "homepage": "https://github.com/glaucia86/take-break-reminder-app#readme"
+}
