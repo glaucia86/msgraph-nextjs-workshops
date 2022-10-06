@@ -9,7 +9,8 @@ const { Client } = require('@microsoft/microsoft-graph-client');
 const {
   TokenCredentialAuthenticationProvider,
 } = require('@microsoft/microsoft-graph-client/authProviders/azureTokenCredentials');
-const azureIdentity = require('@azure/identity');
+const { ClientSecretCredential } = require('@azure/identity');
+
 const handleError = require('../shared/error');
 
 require('isomorphic-fetch');
@@ -23,17 +24,20 @@ module.exports = async function (context, myTimer) {
   }
   context.log('JavaScript timer trigger function ran!', timeStamp);
 
+  // ==> The logic begins here:
   try {
-    const credential = new azureIdentity.ClientSecretCredential(
-      process.env.AAD_CLIENT_TENENT_ID,
-      process.env.AAD_CLIENT_ID,
-      process.env.AAD_CLIENT_SECRET_ID
+    const credential = new ClientSecretCredential(
+      process.env.AZURE_CLIENT_TENENT_ID,
+      process.env.AZURE_CLIENT_ID,
+      process.env.AZURE_CLIENT_SECRET_ID
     );
+
     const authProvider = new TokenCredentialAuthenticationProvider(credential, {
       scopes: ['https://graph.microsoft.com/.default'],
     });
+
     const client = Client.initWithMiddleware({
-      authProvider: authProvider,
+      authProvider,
     });
 
     let userPresence = await client
