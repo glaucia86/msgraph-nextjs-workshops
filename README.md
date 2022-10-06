@@ -15,6 +15,7 @@ Our main goal is teach you how to develop an application using Microsoft Graph J
     * **[Microsoft Graph JavaScript SDK](https://github.com/microsoftgraph/msgraph-sdk-javascript)**
 * **[Node.Js 16.x](https://nodejs.org/en/)**
 * **[Alexa JavaScript API](https://developer.amazon.com/en-US/docs/alexa/web-api-for-games/alexa-javascript-api.html)**
+* **[Azure Storage Emulator](https://azure.microsoft.com/en-us/downloads/)**
 
 ## 🔥 How to run the application locally?
 
