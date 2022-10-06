@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/glaucia86/take-break-reminder-app/issues"
   },
-  "homepage": "https://github.com/glaucia86/take-break-reminder-app#readme"
+  "homepage": "https://github.com/glaucia86/take-break-reminder-app#readme",
+  "dependencies": {
+    "@azure/identity": "^3.0.0",
+    "@microsoft/microsoft-graph-client": "^3.0.2"
+  }
 }
