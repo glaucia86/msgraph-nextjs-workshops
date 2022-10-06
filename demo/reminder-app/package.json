@@ -4,7 +4,7 @@
   "description": "A Take a Break Reminder App with intention to teach how to use Microsoft Graph JS SDK",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "func host start"
   },
   "keywords": [
     "take-break-reminder-app",
@@ -28,6 +28,8 @@
   "homepage": "https://github.com/glaucia86/take-break-reminder-app#readme",
   "dependencies": {
     "@azure/identity": "^3.0.0",
-    "@microsoft/microsoft-graph-client": "^3.0.2"
+    "@microsoft/microsoft-graph-client": "^3.0.2",
+    "dotenv": "^16.0.3",
+    "isomorphic-fetch": "^3.0.0"
   }
 }

@@ -6,26 +6,26 @@
 			"command": "host start",
 			"problemMatcher": "$func-node-watch",
 			"isBackground": true,
-			"dependsOn": "npm install",
+			"dependsOn": "npm install (functions)",
 			"options": {
-				"cwd": "${workspaceFolder}/demo/reminder-app"
+				"cwd": "${workspaceFolder}/demo\\reminder-app"
 			}
 		},
 		{
 			"type": "shell",
-			"label": "npm install",
+			"label": "npm install (functions)",
 			"command": "npm install",
 			"options": {
-				"cwd": "${workspaceFolder}/demo/reminder-app"
+				"cwd": "${workspaceFolder}/demo\\reminder-app"
 			}
 		},
 		{
 			"type": "shell",
-			"label": "npm prune",
+			"label": "npm prune (functions)",
 			"command": "npm prune --production",
 			"problemMatcher": [],
 			"options": {
-				"cwd": "${workspaceFolder}/demo/reminder-app"
+				"cwd": "${workspaceFolder}/demo\\reminder-app"
 			}
 		}
 	]
