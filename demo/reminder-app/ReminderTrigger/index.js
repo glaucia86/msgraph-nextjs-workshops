@@ -5,17 +5,18 @@
  * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
  */
 
-const handleError = require('../shared/error');
 const { Client } = require('@microsoft/microsoft-graph-client');
 const {
   TokenCredentialAuthenticationProvider,
 } = require('@microsoft/microsoft-graph-client/authProviders/azureTokenCredentials');
-const azure = require('@azure/identity');
+const azureIdentity = require('@azure/identity');
+const handleError = require('../shared/error');
+
 require('isomorphic-fetch');
 require('dotenv').config();
 
 module.exports = async function (context, myTimer) {
-  var timeStamp = new Date().toISOString();
+  let timeStamp = new Date().toISOString();
 
   if (myTimer.isPastDue) {
     context.log('JavaScript is running late!');
@@ -23,7 +24,7 @@ module.exports = async function (context, myTimer) {
   context.log('JavaScript timer trigger function ran!', timeStamp);
 
   try {
-    const credential = new azure.ClientSecretCredential(
+    const credential = new azureIdentity.ClientSecretCredential(
       process.env.AAD_CLIENT_TENENT_ID,
       process.env.AAD_CLIENT_ID,
       process.env.AAD_CLIENT_SECRET_ID
