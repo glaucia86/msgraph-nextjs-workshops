@@ -11,9 +11,9 @@ export default function Header() {
   return (
     <div className='header'>
       <Link href='/'>
-        <a className='logo'>Home Test</a>
+        <a className='logo'>NextJs + MS Graph</a>
       </Link>
-      <a href='#' className='btn-sigin'>
+      <a href='#' className='btn-signin'>
         Sign in
       </a>
     </div>

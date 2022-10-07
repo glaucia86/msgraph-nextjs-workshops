@@ -14,13 +14,55 @@ a {
 * {
   box-sizing: border-box;
 }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  color: #fff;
+  padding: 0 2rem;
+  width: 100%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.logo {
+  font-weight: 800;
+  color: #000;
+  font-size: 1.8rem;
+}
+.btn-signin {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #000;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: flex;
+  align-self: center;
+  font-size: 1.2rem;
+  line-height: 1;
+  margin: 20px;
+  font-weight: 700;
+  padding: 1.2rem;
+  width: 14rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: inherit;
+  user-select: none;
+  color: #fff;
+  background-image: linear-gradient(45deg, #fbbc05 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.btn-signin:hover {
+  background-position: 0;
+  color: #000;
 }
