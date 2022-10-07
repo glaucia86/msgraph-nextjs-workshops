@@ -6,7 +6,7 @@
  */
 
 import Head from 'next/head';
-// import Header from '../components/Header';
+import Header from '../components/Header';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -16,6 +16,18 @@ export default function Home() {
         <title>NextJs | Microsoft Graph</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <Header />
+      <main className={styles.main}>
+        <h1 className={styles.title}>
+          Welcome to the Microsoft Graph Tutorial
+        </h1>
+        <h2>
+          A step by step tutorial how you can use Microsoft Graph with Next.Js!
+        </h2>
+        <div className={styles.image}>
+          <img src='/images/reminder.gif' alt='' />
+        </div>
+      </main>
     </div>
   );
 }
