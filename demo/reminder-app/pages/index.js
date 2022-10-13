@@ -7,7 +7,7 @@
 
 import Head from 'next/head';
 import Image from 'next/image';
-import Header from '../components/Header';
+import Header from '../components/Header/header';
 import styles from '../styles/Home.module.css';
 import { useSession } from 'next-auth/react';
 
@@ -30,7 +30,13 @@ export default function Home() {
           A step by step tutorial how you can use Microsoft Graph with Next.Js!
         </h2>
         <div className={styles.image}>
-          <img src='/images/reminder.gif' alt='' />
+          <Image
+            priority
+            src='/images/reminder.gif'
+            width={560}
+            height={315}
+            alt=''
+          />
         </div>
         <div className={styles.user}>
           {loading && <div className={styles.title}>Loading...</div>}
@@ -47,11 +53,6 @@ export default function Home() {
           {!session && (
             <>
               <p className={styles.title}>Please Sign in</p>
-              <img
-                src='https://developer.microsoft.com/en-us/advocates/media/profiles/glaucia-lemos.png'
-                alt=''
-                className={styles.avatar}
-              />
               <p className={styles.credit}>
                 GIF by{' '}
                 <a href='https://dribbble.com/shots/6915953-Another-man-down/attachments/6915953-Another-man-down?mode=media'>
