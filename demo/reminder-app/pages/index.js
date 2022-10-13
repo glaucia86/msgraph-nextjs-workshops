@@ -42,22 +42,15 @@ export default function Home() {
           {loading && <div className={styles.title}>Loading...</div>}
           {session && (
             <>
-              <p style={{ marginBottom: '10px' }}>
-                {' '}
-                Welcome, {session.user.name ?? session.user.email}
-              </p>{' '}
-              <br />
-              <img src={session.user.image} alt='' className={styles.avatar} />
+              <strong>Name: {session.user.name}</strong> <br />
+              <strong>Email: {session.user.email}</strong>
             </>
           )}
           {!session && (
             <>
               <p className={styles.title}>Please Sign in</p>
               <p className={styles.credit}>
-                GIF by{' '}
-                <a href='https://dribbble.com/shots/6915953-Another-man-down/attachments/6915953-Another-man-down?mode=media'>
-                  Another picture
-                </a>{' '}
+                <a href='https://dribbble.com/shots/6915953-Another-man-down/attachments/6915953-Another-man-down?mode=media'></a>{' '}
               </p>
             </>
           )}
