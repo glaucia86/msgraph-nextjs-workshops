@@ -15,6 +15,14 @@ export default function Home() {
   const { data: session, status } = useSession();
   const loading = status === 'loading';
 
+  const fetchPresence = async () => {
+    const response = await fetch('/api/presence');
+    const data = await response.json();
+    console.log(data);
+
+    return ``;
+  };
+
   return (
     <div className={styles.container}>
       <Head>
@@ -44,6 +52,7 @@ export default function Home() {
             <>
               <strong>Name: {session.user.name}</strong> <br />
               <strong>Email: {session.user.email}</strong>
+              <button onClick={fetchPresence}>FETCH</button>
             </>
           )}
           {!session && (
