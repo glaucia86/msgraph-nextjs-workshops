@@ -51,16 +51,14 @@ export default function Home() {
           {session && (
             <>
               <strong>Name: {session.user.name}</strong> <br />
-              <strong>Email: {session.user.email}</strong>
+              <strong>Email: {session.user.email}</strong> <br />
               <button onClick={fetchPresence}>FETCH</button>
             </>
           )}
           {!session && (
             <>
               <p className={styles.title}>Please Sign in</p>
-              <p className={styles.credit}>
-                <a href='https://dribbble.com/shots/6915953-Another-man-down/attachments/6915953-Another-man-down?mode=media'></a>{' '}
-              </p>
+              <p className={styles.credit}>Test</p>
             </>
           )}
         </div>
