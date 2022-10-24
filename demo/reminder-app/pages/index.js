@@ -11,16 +11,20 @@ import Header from '../components/Header/header';
 import styles from '../styles/Home.module.css';
 import { useSession } from 'next-auth/react';
 
-export default function Home() {
+export default function Home({ presences }) {
   const { data: session, status } = useSession();
   const loading = status === 'loading';
 
   const fetchPresence = async () => {
-    const response = await fetch('/api/presence');
-    const data = await response.json();
-    console.log(data);
+    const data = await fetch('/api/presence');
+    const presences = await data.json();
+    console.log(presences);
 
-    return ``;
+    return {
+      props: {
+        presences,
+      },
+    };
   };
 
   return (
@@ -52,7 +56,9 @@ export default function Home() {
             <>
               <strong>Name: {session.user.name}</strong> <br />
               <strong>Email: {session.user.email}</strong> <br />
-              <button onClick={fetchPresence}>FETCH</button>
+              <h2>Testing Fetch</h2>
+              <button onClick={fetchPresence}>FETCH</button> <br />
+              <ul className={styles.todolist}></ul>
             </>
           )}
           {!session && (
