@@ -15,10 +15,25 @@ export default function Home({ presences }) {
   const { data: session, status } = useSession();
   const loading = status === 'loading';
 
+  let timeAvailable = 0;
+
   const fetchPresence = async () => {
     const data = await fetch('/api/presence');
     const presences = await data.json();
-    console.log(presences);
+    console.log(presences.availability);
+
+    if (
+      presences.availability === 'Offline' ||
+      presences.availability === 'Away'
+    ) {
+      timeAvailable = 0;
+    } else {
+      timeAvailable = timeAvailable + 1;
+    }
+
+    if (timeAvailable >= 12) {
+      alert('Take a break!');
+    }
 
     return {
       props: {
@@ -26,6 +41,8 @@ export default function Home({ presences }) {
       },
     };
   };
+
+  setInterval(fetchPresence, 300000);
 
   return (
     <div className={styles.container}>
@@ -43,7 +60,7 @@ export default function Home({ presences }) {
         </h2>
         <div className={styles.image}>
           <Image
-            priority
+            priority={true}
             src='/images/reminder.gif'
             width={560}
             height={315}
@@ -58,7 +75,6 @@ export default function Home({ presences }) {
               <strong>Email: {session.user.email}</strong> <br />
               <h2>Testing Fetch</h2>
               <button onClick={fetchPresence}>FETCH</button> <br />
-              <ul className={styles.todolist}></ul>
             </>
           )}
           {!session && (
