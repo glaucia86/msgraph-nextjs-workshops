@@ -3,7 +3,7 @@
 [![Take-a-Break-Reminder-App.gif](https://i.postimg.cc/brTVktZj/Take-a-Break-Reminder-App.gif)](https://postimg.cc/fSVvhk7H)
 
 Take a break Reminder is an application that aims to remind you of the importance of taking time to do what you want to take a break from your work schedule!
-Our main goal is teach you how to develop an application using Microsoft Graph JavaScript SDK integrated with Microsoft Teams and Alexa!
+Our main goal is teach you how to develop an application using Microsoft Graph JavaScript SDK with Next.js.
 
 ## 🚀 Resources Used
 
