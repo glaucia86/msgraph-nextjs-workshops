@@ -11,17 +11,38 @@ import Header from '../components/Header/header';
 import styles from '../styles/Home.module.css';
 import { useSession } from 'next-auth/react';
 
-export default function Home() {
+export default function Home({ presences }) {
   const { data: session, status } = useSession();
   const loading = status === 'loading';
 
-  const fetchPresence = async () => {
-    const response = await fetch('/api/presence');
-    const data = await response.json();
-    console.log(data);
+  let timeAvailable = 0;
 
-    return ``;
+  const fetchPresence = async () => {
+    const data = await fetch('/api/presence');
+    const presences = await data.json();
+    console.log(presences.availability);
+
+    if (
+      presences.availability === 'Offline' ||
+      presences.availability === 'Away'
+    ) {
+      timeAvailable = 0;
+    } else {
+      timeAvailable = timeAvailable + 1;
+    }
+
+    if (timeAvailable >= 12) {
+      alert('Take a break!');
+    }
+
+    return {
+      props: {
+        presences,
+      },
+    };
   };
+
+  setInterval(fetchPresence, 300000);
 
   return (
     <div className={styles.container}>
@@ -39,7 +60,7 @@ export default function Home() {
         </h2>
         <div className={styles.image}>
           <Image
-            priority
+            priority={true}
             src='/images/reminder.gif'
             width={560}
             height={315}
@@ -51,16 +72,15 @@ export default function Home() {
           {session && (
             <>
               <strong>Name: {session.user.name}</strong> <br />
-              <strong>Email: {session.user.email}</strong>
-              <button onClick={fetchPresence}>FETCH</button>
+              <strong>Email: {session.user.email}</strong> <br />
+              <h2>Testing Fetch</h2>
+              <button onClick={fetchPresence}>FETCH</button> <br />
             </>
           )}
           {!session && (
             <>
               <p className={styles.title}>Please Sign in</p>
-              <p className={styles.credit}>
-                <a href='https://dribbble.com/shots/6915953-Another-man-down/attachments/6915953-Another-man-down?mode=media'></a>{' '}
-              </p>
+              <p className={styles.credit}>Test</p>
             </>
           )}
         </div>
