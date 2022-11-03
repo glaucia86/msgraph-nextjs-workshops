@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Take a Break Reminder App
 
-## Getting Started
+[![Take-a-Break-Reminder-App.gif](https://i.postimg.cc/brTVktZj/Take-a-Break-Reminder-App.gif)](https://postimg.cc/fSVvhk7H)
 
-First, run the development server:
+Take a break Reminder is an application that aims to remind you of the importance of taking time to do what you want to take a break from your work schedule!
+Our main goal is teach you how to develop an application using Microsoft Graph JavaScript SDK integrated with Microsoft Teams and Alexa!
+
+## 🚀 Resources Used
+
+* **[Visual Studio Code](https://code.visualstudio.com/)**
+* **[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app?rtc=2)**
+* **[Microsoft 365 Developer Program](https://developer.microsoft.com/en-us/microsoft-365/dev-program)**
+- **[Azure Functions Core Tools 4.x](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash)**
+* **[Microsoft Graph](https://developer.microsoft.com/en-us/graph)**
+    * **[Microsoft Graph JavaScript SDK](https://github.com/microsoftgraph/msgraph-sdk-javascript)**
+* **[Node.Js 16.x](https://nodejs.org/en/)**
+* **[Alexa JavaScript API](https://developer.amazon.com/en-US/docs/alexa/web-api-for-games/alexa-javascript-api.html)**
+* **[Azure Storage Emulator](https://azure.microsoft.com/en-us/downloads/)**
+
+## 🔥 How to run the application locally?
+
+1. First go to the folder: `demo -> reminder-app` and run the command:
+
+```bash
+npm install
+```
+
+2. Now create a file called: `local.settings.json` (root of the project) and include this information below:
+
+```js
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsStorage": ""
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*"
+  }
+}
+```
+
+3. Now you can execute the command:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*under construction*
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## ⭐️ Important Resources
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- ✅ **[Microsoft Graph Documentation](https://docs.microsoft.com/en-us/graph/)**
+- ✅ **[Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)**
+- ✅ **[Free Courses - Microsoft Graph](https://docs.microsoft.com/en-us/training/browse/?products=ms-graph&resource_type=learning%20path)**
+- ✅ **[Microsoft Graph JavaScript SDK](https://github.com/microsoftgraph/msgraph-sdk-javascript)**
+- ✅ **[Azure Functions Documentation](https://docs.microsoft.com/en-us/azure/azure-functions/)**
+- ✅ **[Free Courses - Azure Functions](https://docs.microsoft.com/en-us/training/browse/?products=azure-functions)**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## ❓ Questions? Comments? 
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you have any questions about the code developed, feel free to open an **[ISSUE HERE](https://github.com/glaucia86/take-break-reminder-app/issues)**. We'll get back to you soon!
