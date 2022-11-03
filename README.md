@@ -1,62 +1,37 @@
-# Take a Break Reminder App
+# Microsoft Graph JavaScript SDK with Next.js Tutorials
 
-[![Take-a-Break-Reminder-App.gif](https://i.postimg.cc/brTVktZj/Take-a-Break-Reminder-App.gif)](https://postimg.cc/fSVvhk7H)
-
-Take a break Reminder is an application that aims to remind you of the importance of taking time to do what you want to take a break from your work schedule!
-Our main goal is teach you how to develop an application using Microsoft Graph JavaScript SDK integrated with Microsoft Teams and Alexa!
+Welcome to the Microsoft Graph JavaScript SDK with Next.js Tutorials. In this repository, you will find a series of tutorials that will help you to learn how to develop an application using Microsoft Graph JavaScript SDK with Next.js.
 
 ## 🚀 Resources Used
 
-* **[Visual Studio Code](https://code.visualstudio.com/)**
-* **[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app?rtc=2)**
-* **[Microsoft 365 Developer Program](https://developer.microsoft.com/en-us/microsoft-365/dev-program)**
-- **[Azure Functions Core Tools 4.x](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash)**
-* **[Microsoft Graph](https://developer.microsoft.com/en-us/graph)**
+- **[Visual Studio Code](https://code.visualstudio.com/)**
+- **[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app?rtc=2)**
+- **[Microsoft 365 Developer Program](https://developer.microsoft.com/en-us/microsoft-365/dev-program)**
+- **[Microsoft Graph](https://developer.microsoft.com/en-us/graph)**
     * **[Microsoft Graph JavaScript SDK](https://github.com/microsoftgraph/msgraph-sdk-javascript)**
-* **[Node.Js 16.x](https://nodejs.org/en/)**
-* **[Alexa JavaScript API](https://developer.amazon.com/en-US/docs/alexa/web-api-for-games/alexa-javascript-api.html)**
-* **[Azure Storage Emulator](https://azure.microsoft.com/en-us/downloads/)**
+- **[Node.Js 16.x](https://nodejs.org/en/)**
+- **[Next.Js](https://nextjs.org/learn/foundations/about-nextjs)**
 
-## 🔥 How to run the application locally?
+## 📚 How to Follow the Tutorial?
 
-1. First go to the folder: `demo -> reminder-app` and run the command:
+To follow the tutorial, you can access the link below:
 
-```bash
-npm install
-```
-
-2. Now create a file called: `local.settings.json` (root of the project) and include this information below:
-
-```js
-{
-  "IsEncrypted": false,
-  "Values": {
-    "FUNCTIONS_WORKER_RUNTIME": "node",
-    "AzureWebJobsStorage": ""
-  },
-  "Host": {
-    "LocalHttpPort": 7071,
-    "CORS": "*"
-  }
-}
-```
-
-3. Now you can execute the command:
-
-```bash
-npm run dev
-```
-
-*under construction*
+- **[Tutorial: Authentication App](../tutorial-demo-01/01-intro.md)**
+- **[Tutorial: Reminder App](../tutorial-demo-02/01-intro.md)**
 
 ## ⭐️ Important Resources
 
+- ✅ **[Free Courses - Microsoft Graph](https://docs.microsoft.com/en-us/training/browse/?products=ms-graph&resource_type=learning%20path)**
+- ✅ **[Microsoft Graph Fundalmentals](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-fundamentals/)**
+- ✅ **[Access a user's calendar events in a JavaScript app with Microsoft Graph](https://learn.microsoft.com/en-us/training/modules/msgraph-access-user-events/)**
+- ✅ **[Show a user's emails in a JavaScript app with Microsoft Graph](https://learn.microsoft.com/en-us/training/modules/msgraph-show-user-emails/)**
+- ✅ **[Download and upload files in a JavaScript app with Microsoft Graph](https://learn.microsoft.com/en-us/training/modules/msgraph-manage-files/)**
+- ✅ **[Access user photo information by using Microsoft Graph](https://learn.microsoft.com/en-us/training/modules/msgraph-user-photo-information/)**
+- ✅ **[Configure a JavaScript application to retrieve Microsoft 365 data by using Microsoft Graph](https://learn.microsoft.com/en-us/training/modules/msgraph-javascript-app/)**
+- ✅ **[Build apps with Microsoft Graph – Associate](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-associate/)**
 - ✅ **[Microsoft Graph Documentation](https://docs.microsoft.com/en-us/graph/)**
 - ✅ **[Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)**
-- ✅ **[Free Courses - Microsoft Graph](https://docs.microsoft.com/en-us/training/browse/?products=ms-graph&resource_type=learning%20path)**
 - ✅ **[Microsoft Graph JavaScript SDK](https://github.com/microsoftgraph/msgraph-sdk-javascript)**
-- ✅ **[Azure Functions Documentation](https://docs.microsoft.com/en-us/azure/azure-functions/)**
-- ✅ **[Free Courses - Azure Functions](https://docs.microsoft.com/en-us/training/browse/?products=azure-functions)**
 
 ## ❓ Questions? Comments? 
 
