@@ -1,4 +1,4 @@
-# Reminder App - A Step by Step Tutorial
+# Authentication App - A Step by Step Tutorial
 
 *(put picture about the application here)*
 
@@ -12,9 +12,9 @@ Microsoft Graph is an API that allows you to access data and services from Micro
 
 Now that we already understand what Microsoft Graph is, let's start creating our application.
 
-## Take a Break Reminder App. What is it? What does it do?
+## Authentication App. What is it? What does it do?
 
-This application is a reminder of time intervals for you to get up and take a break. The application will remind you to take a break every 60 minutes. The application will show a notification on your computer screen and will also send you an email.
+This application is 
 
 *(explain what the application does)*
 
