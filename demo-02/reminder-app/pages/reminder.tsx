@@ -15,7 +15,12 @@ export default function ReminderPage() {
   let timeAvailable = 0;
 
   const fetchPresence = async () => {
-    const data = await fetch('https://jsonplaceholder.typicode.com/todos');
+    const data = await fetch('/api/getPresence', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
     const presences = await data.json();
     console.log(presences.availability);
 
@@ -40,7 +45,7 @@ export default function ReminderPage() {
     };
   };
 
-  setInterval(fetchPresence, 300000);
+  //setInterval(fetchPresence, 300000);
 
   return (
     <Layout>

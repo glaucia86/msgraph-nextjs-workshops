@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@azure/identity": "^3.0.0",
     "@microsoft/microsoft-graph-client": "^3.0.2",
     "next": "13.0.0",
     "next-auth": "^4.15.0",
