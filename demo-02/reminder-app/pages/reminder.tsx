@@ -6,46 +6,45 @@
  */
 
 import { useSession } from 'next-auth/react';
+import { useState } from 'react';
 import Layout from '../components/Layout/layout';
 
 export default function ReminderPage() {
+  const [isTimerStarted, setIsTimerStarted] = useState(false);
   const { data: session, status } = useSession();
-  const loading = status === 'loading';
+  const isLoading = status === 'loading';
 
-  let timeAvailable = 0;
-
-  const fetchPresence = async () => {
-    const data = await fetch('/api/getPresence', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
-    const presences = await data.json();
-    console.log(presences.availability);
-
-    if (
-      presences.availability === 'Offline' ||
-      presences.availability === 'Away'
-    ) {
-      timeAvailable = 0;
-    } else {
-      timeAvailable = timeAvailable + 1;
-    }
-
-    if (timeAvailable >= 5) {
-      alert('Take a break!');
-      timeAvailable = 0;
-    }
-
-    return {
-      props: {
-        presences,
-      },
-    };
+  const isPresent = async () => {
+    const data = await fetch('/api/getPresence');
+    const presence = await data.json();
+    return !['Offline', 'Away'].includes(presence.availability);
   };
 
-  //setInterval(fetchPresence, 300000);
+  const maybeAlert = async () => {
+    if (await isPresent()) {
+      alert('Take a Break!');
+    }
+  };
+
+  const startTimer = async () => {
+    if (!(await isPresent())) {
+      alert('You are offline!');
+      return;
+    }
+
+    setTimeout(timerIsOver, 10_000);
+
+    setIsTimerStarted(true);
+  };
+
+  const timerIsOver = async () => {
+    await maybeAlert();
+    setIsTimerStarted(false);
+  };
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <Layout>
@@ -53,18 +52,11 @@ export default function ReminderPage() {
       <h2>Welcome, {session?.user?.name}!</h2>
 
       <div>
-        {loading && <div>Loading...</div>}
-        {session && (
-          <>
-            <h2>Testing Fetch</h2>
-            <button onClick={fetchPresence}>FETCH</button> <br />
-          </>
-        )}
-        {!session && (
-          <>
-            <p>Please Sign in</p>
-            <p>Test</p>
-          </>
+        <h3>⏰ Timer</h3>
+        {isTimerStarted ? (
+          <p>Timer is running...</p>
+        ) : (
+          <button onClick={startTimer}>Start Timer!</button>
         )}
       </div>
     </Layout>
