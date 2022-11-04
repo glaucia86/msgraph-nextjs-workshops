@@ -22,6 +22,7 @@ export default function ReminderPage() {
 
   const maybeAlert = async () => {
     if (await isPresent()) {
+      playSound();
       alert('Take a Break!');
     }
   };
@@ -42,6 +43,11 @@ export default function ReminderPage() {
     setIsTimerStarted(false);
   };
 
+  const playSound = async () => {
+    const audio = new Audio('../public/sounds/alert.mp3');
+    await audio.play();
+  };
+
   if (isLoading) {
     return <div>Loading...</div>;
   }
@@ -52,9 +58,12 @@ export default function ReminderPage() {
       <h2>Welcome, {session?.user?.name}!</h2>
 
       <div>
-        <h3>⏰ Timer</h3>
+        <h3>⏰ Time goes by... so slowly! ⏰</h3>
         {isTimerStarted ? (
-          <p>Timer is running...</p>
+          <p>
+            {' '}
+            <strong>Timer is running right now...</strong>
+          </p>
         ) : (
           <button onClick={startTimer}>Start Timer!</button>
         )}
