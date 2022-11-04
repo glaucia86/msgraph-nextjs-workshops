@@ -22,7 +22,6 @@ export default function ReminderPage() {
 
   const maybeAlert = async () => {
     if (await isPresent()) {
-      playSound();
       alert('Take a Break!');
     }
   };
@@ -41,11 +40,6 @@ export default function ReminderPage() {
   const timerIsOver = async () => {
     await maybeAlert();
     setIsTimerStarted(false);
-  };
-
-  const playSound = async () => {
-    const audio = new Audio('../public/sounds/alert.mp3');
-    await audio.play();
   };
 
   if (isLoading) {
