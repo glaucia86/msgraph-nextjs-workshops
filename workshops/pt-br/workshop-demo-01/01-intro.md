@@ -1,4 +1,4 @@
-# Authentication App - Passo a Passo
+# Workshop: Authentication App
 
 ![authentication-image](./../../workshop-images/authentication.gif)
 
@@ -18,7 +18,7 @@ Para seguir esse workshop você precisa ter instalado em sua máquina:
 - **[Node.Js 16.x](https://nodejs.org/en/)**
 - **[Next.Js](https://nextjs.org/learn/foundations/about-nextjs)**
 
-Além disso, se faz criar uma conta no Microsoft 365 Developer Program. **[LINK AQUI](https://developer.microsoft.com/en-us/microsoft-365/dev-program)**. Não se preocupe. Essa conta é totalmente gratuita!
+Além disso, se faz necessário criar uma conta no Microsoft 365 Developer Program. **[LINK AQUI](https://developer.microsoft.com/en-us/microsoft-365/dev-program)**. Não se preocupe. Essa conta é totalmente gratuita!
 
 Se você tiver dúvidas em como criar a conta, você pode assistir esse vídeo **[AQUI](https://www.youtube.com/watch?v=JvWLgirC8xs)**. Pois explica direitinho como criar a conta.
 

@@ -1,4 +1,4 @@
-# Authentication App - Step by Step
+# Workshop: Authentication App
 
 ![authentication-image](./../../workshop-images/authentication.gif)
 
