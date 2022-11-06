@@ -8,7 +8,7 @@
 import Head from 'next/head';
 import Layout from '../components/Layout/layout';
 import Image from 'next/image';
-import reminderImage from '../public/images/reminder.gif';
+import authenticationImage from '../public/images/authentication.gif';
 import styles from '../styles/Home.module.css';
 
 export default function IndexPage() {
@@ -19,7 +19,7 @@ export default function IndexPage() {
           <title>NextJs | Microsoft Graph</title>
         </Head>
         <main className={styles.main}>
-          <h1>Take a Break Reminder App</h1>
+          <h1>Authentication App</h1>
           <h4>
             A step by step tutorial how you can use Microsoft Graph with
             Next.Js!
@@ -27,10 +27,10 @@ export default function IndexPage() {
           <div>
             <Image
               priority={true}
-              src={reminderImage}
+              src={authenticationImage}
               width={560}
               height={315}
-              alt='a clock image with a reminder'
+              alt='an authentication app image'
             />
           </div>
         </main>
