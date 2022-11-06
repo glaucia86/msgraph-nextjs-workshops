@@ -45,4 +45,4 @@ Here are some free courses and important resources that you can use to learn mor
 
 ## ❓ Questions? Comments? 
 
-If you have any questions about the code developed, feel free to open an **[ISSUE HERE](https://github.com/glaucia86/take-break-reminder-app/issues)**. We'll get back to you soon!
+If you have any questions about the code developed, feel free to open an **[ISSUE HERE](https://github.com/glaucia86/msgraph-nextjs-workshops/issues)**. We'll get back to you soon!
