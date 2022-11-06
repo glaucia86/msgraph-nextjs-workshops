@@ -25,18 +25,18 @@ Se você tiver dúvidas em como criar a conta, você pode assistir esse vídeo *
 ## Sessões
 
 
-| Sessão                                                                               | Tópicos                                                                                                                                         |
-| ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **[Sessão #1 - Introdução](01-intro.md)**                                            | Aqui você terá a introdução do workshop.                                                                                                        |
-| **[Sessão # - Configurando uma Aplicação no Azure Active Directory](02-session.md)** | Aqui você aprenderá a criar uma aplicação no AAD e configurar as permissões necessárias para que a aplicação possa acessar os dados do usuário. |  |
-| **[Sessão #3]()**                                                                    | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
-| **[Sessão #4]()**                                                                    | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
-| **[Sessão #5]()**                                                                    | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
-| **[Sessão #6]()**                                                                    | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
-| **[Sessão #7]()**                                                                    | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
-| **[Sessão #8]()**                                                                    | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
+| Sessão                                                                                | Tópicos                                                                                                                                         |
+| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Sessão 01 - Introdução](01-intro.md)**                                             | Aqui você terá a introdução do workshop.                                                                                                        |
+| **[Sessão 02 - Configurando uma Aplicação no Azure Active Directory](02-session.md)** | Aqui você aprenderá a criar uma aplicação no AAD e configurar as permissões necessárias para que a aplicação possa acessar os dados do usuário. |  |
+| **[Sessão 03]()**                                                                     | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
+| **[Sessão 04]()**                                                                     | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
+| **[Sessão 05]()**                                                                     | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
+| **[Sessão 06]()**                                                                     | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
+| **[Sessão 07]()**                                                                     | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
+| **[Sessão 08]()**                                                                     | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
 
-**[➡️ Próximo: Sessão #2](./02-session.md)**
+**[➡️ Próximo: Sessão 02](./02-session.md)**
 
 
 
