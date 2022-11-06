@@ -1,6 +1,11 @@
-# Microsoft Graph JavaScript SDK with Next.js Tutorials
+# Workshops - Learn: Microsoft Graph JavaScript SDK with Next.js 
 
-Welcome to the Microsoft Graph JavaScript SDK with Next.js Tutorials. In this repository, you will find a series of tutorials that will help you to learn how to develop an application using Microsoft Graph JavaScript SDK with Next.js.
+![graph-next](img/graph-next.gif)
+
+<p style="text-align: center;">❤️ Developed by the Community for the Community!❤️</p>
+<br/>
+
+Welcome to the Microsoft Graph JavaScript SDK with Next.js Workshops. In this repository, you will find a series of workshops that will help you to learn how to develop an application using Microsoft Graph JavaScript SDK with Next.js.
 
 ## 🚀 Resources Used
 
@@ -8,18 +13,27 @@ Welcome to the Microsoft Graph JavaScript SDK with Next.js Tutorials. In this re
 - **[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app?rtc=2)**
 - **[Microsoft 365 Developer Program](https://developer.microsoft.com/en-us/microsoft-365/dev-program)**
 - **[Microsoft Graph](https://developer.microsoft.com/en-us/graph)**
-    * **[Microsoft Graph JavaScript SDK](https://github.com/microsoftgraph/msgraph-sdk-javascript)**
+- **[Microsoft Graph JavaScript SDK](https://github.com/microsoftgraph/msgraph-sdk-javascript)**
 - **[Node.Js 16.x](https://nodejs.org/en/)**
 - **[Next.Js](https://nextjs.org/learn/foundations/about-nextjs)**
 
-## 📚 How to Follow the Tutorial?
+## 📚 How to Follow the Workshops?
 
-To follow the tutorial, you can access the link below:
+The workshops was written in a way that you can follow it in order. However, you can also jump to a specific workshop if you want to learn a specific topic. And also, if you want to translate the workshops to your language, you can do it by following the **[Translation Guide](translation-guide.md)**.
 
-- **[Tutorial: Authentication App](../tutorial-demo-01/01-intro.md)**
-- **[Tutorial: Reminder App](../tutorial-demo-02/01-intro.md)**
+| Workshops          | en-us                                                    | pt-br                                                    | es           | fr           |
+| ------------------ | -------------------------------------------------------- | -------------------------------------------------------- | ------------ | ------------ |
+| Authentication App | **[HERE](workshops/en-us/workshop-demo-01/01-intro.md)** | **[AQUI](workshops/pt-br/workshop-demo-01/01-intro.md)** | **[TODO]()** | **[TODO]()** |
+| Reminder App       | **[HERE](workshops/en-us/workshop-demo-02/01-intro.md)** | **[AQUI](workshops/pt-br/workshop-demo-02/01-intro.md)** | **[TODO]()** | **[TODO]()** |
+|                    |                                                          |                                                          |              |              |
 
-## ⭐️ Important Resources
+
+- **[Workshop: Authentication App]()**
+- **[Workshop: Reminder App](../tutorial-demo-02/01-intro.md)**
+
+## ⭐️ Free Courses & Important Resources
+
+Here are some free courses and important resources that you can use to learn more about Microsoft Graph and Microsoft 365.
 
 - ✅ **[Free Courses - Microsoft Graph](https://docs.microsoft.com/en-us/training/browse/?products=ms-graph&resource_type=learning%20path)**
 - ✅ **[Microsoft Graph Fundalmentals](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-fundamentals/)**
