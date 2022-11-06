@@ -25,11 +25,7 @@ The workshops was written in a way that you can follow it in order. However, you
 | ------------------ | -------------------------------------------------------- | -------------------------------------------------------- | ------------ | ------------ |
 | Authentication App | **[HERE](workshops/en-us/workshop-demo-01/01-intro.md)** | **[AQUI](workshops/pt-br/workshop-demo-01/01-intro.md)** | **[TODO]()** | **[TODO]()** |
 | Reminder App       | **[HERE](workshops/en-us/workshop-demo-02/01-intro.md)** | **[AQUI](workshops/pt-br/workshop-demo-02/01-intro.md)** | **[TODO]()** | **[TODO]()** |
-|                    |                                                          |                                                          |              |              |
 
-
-- **[Workshop: Authentication App]()**
-- **[Workshop: Reminder App](../tutorial-demo-02/01-intro.md)**
 
 ## ⭐️ Free Courses & Important Resources
 
