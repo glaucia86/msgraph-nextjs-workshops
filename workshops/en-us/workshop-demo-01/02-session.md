@@ -55,7 +55,7 @@ Now, let's go to the step by step!
 
 10. Click on **Microsoft Graph** amd then on **Delegated permissions**.
 
-![image-10](https://github.com/glaucia86/msgraph-nextjs-workshops/blob/main/workshops/workshop-images/images-demo-01/image-10.PNG)
+![image-10](https://raw.githubusercontent.com/glaucia86/msgraph-nextjs-workshops/main/workshops/workshop-images/images-demo-01/image-10.PNG?token=GHSAT0AAAAAABYRRWBVVXDZIOAEKWRAMLSIY3IAX2Q)
 
 11. Select the following permissions and click on **Add permissions**.
 
