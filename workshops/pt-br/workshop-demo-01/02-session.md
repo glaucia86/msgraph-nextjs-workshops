@@ -59,7 +59,7 @@ Precisaremos desses dados para configurar a aplicação no `env.local`.
 
 ![image-10](https://github.com/glaucia86/msgraph-nextjs-workshops/blob/main/workshops/workshop-images/images-demo-01/image-10.PNG)
 
-1.  Selecione as seguintes permissões:
+12.  Selecione as seguintes permissões:
 
 - **email**
 - **offline_access**
@@ -73,9 +73,7 @@ Precisaremos desses dados para configurar a aplicação no `env.local`.
 
 13. Clique em **Add permissions**.
 
-14. Clique novamente em **Add a permission**.
-
-15. Selecione **Microsoft Graph** e clique em **Application permissions**.
+14. Selecione novamente **Microsoft Graph** e clique em **Application permissions**.
 
 ![image-13](./../../workshop-images/images-demo-01/image-13.png)
 
@@ -87,14 +85,16 @@ Precisaremos desses dados para configurar a aplicação no `env.local`.
 
 ![image-14](./../../workshop-images/images-demo-01/image-14.png)
 
-18. Clique em **Grant admin consent for** e selecione **Yes**.
+18. Clique em **Grant admin consent for ...** e selecione **Yes**.
 
 ![image-15](./../../workshop-images/images-demo-01/image-15.png)
 
-Parabéns! Você criou uma aplicação no Azure AD e configurou as permissões necessárias para a aplicação.
+Parabéns! YEAH! 🎉🎉🎉
+
+Você criou uma aplicação no Azure AD e configurou as permissões necessárias para a aplicação.
 
 Agora, vamos para o próximo passo.
 
 
 **[⬅️ Voltar: Intro](./01-intro.md)**
-| **[➡️ Próximo: Sessão #3](./03-session.md)**
+| **[➡️ Próximo: Sessão 03](./03-session.md)**
