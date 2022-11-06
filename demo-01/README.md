@@ -24,14 +24,16 @@ Our main goal is teach you how to develop an application using Microsoft Graph J
 npm install
 ```
 
-2. Now create a file called: `.env.local` (root of the project) and include this information below:
+2. Now create a file called: `.env.local` (in the root of the project) and include this information below:
 
 ```env
 AZURE_AD_CLIENT_ID=<copy Application (client) ID here>
 AZURE_AD_CLIENT_SECRET=<copy generated client secret value here>
 AZURE_AD_TENANT_ID=<copy the tenant id here>
 NEXTAUTH_URL=http://localhost:3000
-NEXTAUTH_SECRET= # Linux: `openssl rand -hex 32` or go to https://generate-secret.now.sh/32
+NEXTAUTH_SECRET=
+
+if you're Linux user and want to generate a NEXTAUTH_SECRET: `openssl rand -hex 32` or go to https://generate-secret.now.sh/32
 ```
 
 3. Now you can execute the command:
@@ -42,13 +44,7 @@ npm run dev
 
 4. Now you can access the application in the browser: `http://localhost:3000`
 
-## 📚 How to Follow the Tutorial?
-
-To follow the tutorial, you can access the link below:
-
-- **[Tutorial: Authentication App](../tutorial-demo-01/01-intro.md)**
-
-## ⭐️ Important Resources
+## ⭐️ Free Courses & Important Resources
 
 - ✅ **[Free Courses - Microsoft Graph](https://docs.microsoft.com/en-us/training/browse/?products=ms-graph&resource_type=learning%20path)**
 - ✅ **[Microsoft Graph Fundalmentals](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-fundamentals/)**
@@ -64,4 +60,4 @@ To follow the tutorial, you can access the link below:
 
 ## ❓ Questions? Comments? 
 
-If you have any questions about the code developed, feel free to open an **[ISSUE HERE](https://github.com/glaucia86/take-break-reminder-app/issues)**. We'll get back to you soon!
+If you have any questions about the code developed, feel free to open an **[ISSUE HERE](https://github.com/glaucia86/msgraph-nextjs-workshops/issues)**. We'll get back to you soon!
