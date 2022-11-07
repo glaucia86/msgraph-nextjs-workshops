@@ -231,7 +231,7 @@ Wow! Quantas alterações, não é mesmo? Mas, vamos entender um pouco o que aco
 
 Agora execute a aplicação e abre o navegador e acesse a página `http://localhost:3000/` e veja o resultado:
 
-![image-16](./../../workshop-images/images-demo-01/image-17.jpg)
+![image-17](./../../workshop-images/images-demo-01/image-17.jpg)
 
 Há importantes arquivos que precisaremos criar na aplicação. Mas, vamos deixar isso para a próxima sessão.
 
