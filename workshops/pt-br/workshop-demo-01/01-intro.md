@@ -6,6 +6,10 @@
 
 Nesse workshop vamos aprender a criar uma aplicação de autenticação com Next.Js, TypeScript e Microsoft Graph. A aplicação será capaz de autenticar um usuário com o Microsoft Identity Platform e, em seguida, exibir os detalhes do usuário, como nome, endereço de e-mail e até a foto de perfil do usuário.
 
+## O que é Microsoft Graph?
+
+Microsoft Graph é uma API que permite que você acesse dados e serviços do Microsoft 365. Você pode usar a API do Microsoft Graph para construir aplicativos que interajam com milhões de usuários em todo o mundo, acessando dados de maneira consistente em todo o ecossistema do Microsoft 365.
+
 ## Pré-requisitos
 
 Para seguir esse workshop você precisa ter instalado em sua máquina:
