@@ -36,4 +36,7 @@ npm install next-auth
 
 Também, se desejar saber mais sobre o NextAuth, você pode acessar esse link **[AQUI](https://next-auth.js.org/)** e conhecer o NPM do NextAuth **[AQUI](https://www.npmjs.com/package/next-auth)**.
 
-Podemos agora começar a criar alguns componentes. 
+Agora podemos enfim, começar a criar alguns componentes para a nossa aplicação. Porém, faremos isso na próxima seção.
+
+**[⬅️ Voltar: Sessão 02](./02-session.md)**
+| **[➡️ Próximo: Sessão 04](./04-session.md)**
