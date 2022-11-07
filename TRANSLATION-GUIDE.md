@@ -14,4 +14,4 @@ If you want to help us to translate the workshops to your language, you can do i
 4. Now you can start translating the workshop. You can use english version as a reference to translate the workshop.  
 5. Once you finish the translation, open a pull request to the `main` branch of this repository. 
 6. Wait for the pull request to be approved and merged.
-7. 🎉🎉🎉 Congratulations! You just translated the workshop to your language! 🎉🎉🎉
+7. 🎉🎉🎉 Congratulations! You just translated the workshop to your language! 
