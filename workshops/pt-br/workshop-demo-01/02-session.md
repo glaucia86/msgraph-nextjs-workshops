@@ -57,7 +57,7 @@ Precisaremos desses dados para configurar a aplicação no `env.local`.
 
 11. Selecione **Microsoft Graph** e clique em **Delegated permissions**.
 
-![image-10](https://raw.githubusercontent.com/glaucia86/msgraph-nextjs-workshops/main/workshops/workshop-images/images-demo-01/image-10.PNG?token=GHSAT0AAAAAABYRRWBVVXDZIOAEKWRAMLSIY3IAX2Q)
+[![image-10.png](https://i.postimg.cc/bwdQrC1t/image-10.png)](https://postimg.cc/K1SKs5qG)
 
 12.  Selecione as seguintes permissões:
 
