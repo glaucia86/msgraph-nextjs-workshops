@@ -793,6 +793,8 @@ Agora execute a aplicação e abre o navegador e acesse a página `http://localh
 
 ![image](./images/image-02.jpg)
 
+## Criando arquivos de configuração
+
 Crie agora um arquivo na raiz do projeto chamado `process.d.ts` e vamos pré-definir algumas variáveis de ambiente que vamos utilizar no projeto. Adicione o seguinte código:
 
 * `process.d.ts`
