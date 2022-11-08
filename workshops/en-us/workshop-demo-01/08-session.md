@@ -1,6 +1,6 @@
-# Importantes mudanças nas páginas Admin & Reminder
+# Important changes in the Admin & Reminder Pages
 
-Finalmente vamos fazer algumas pequenas alterações nos arquivos: `admin.tsx` e `reminder.tsx`. Altere o código para o seguinte:
+Finally, let's make some changes in the `reminder.tsx` and `admin.tsx` files. So, let's add the following code:
 
 - `pages/admin.tsx`
 
@@ -92,14 +92,14 @@ export default function ReminderPage() {
 </details>
 <br/>
 
-Agora vamos executar o projeto e ver o resultado final. Para isso, execute o seguinte comando:
+Now, let's run the application and test it out. So, let's run the following command:
 
 ```bash
 npm run dev
 ```
 
-E, por fim, acesse a seguinte URL: `http://localhost:3000` e vejamos o resultado final:
+And finally let's open the browser and go to the following URL: `http://localhost:3000/`. So, you should see the following full application:
 
 ![gif-01](./../../workshop-images/images-demo-01/gif-01.gif)
 
-E, finalmente concluímos o nosso projeto! 🎉🎉🎉
+And finally, we finished the application! 🎉🎉🎉

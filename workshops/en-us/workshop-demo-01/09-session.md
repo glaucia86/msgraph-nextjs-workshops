@@ -1,10 +1,10 @@
-# Próximos Passos e Palavras Finais
+# Next Steps & Conclusion
 
-Esperamos que você tenha gostado do workshop e que tenha aprendido algo novo. Se você tiver alguma dúvida, não hesite em nos contatar.
+We hope you enjoyed this workshop and learned something new! If you have any questions or comments, don't hesitate to reach out to us!
 
-Caso deseja seguir, faça o workshop-demo-02. Pois é ali que iremos começar a trabalhar à fundo, com a página `Reminder`, que é uma aplicação que irá nos informar que a cada 60 minutos, iremos receber um lembrete para descansar. Se desejar seguir para esse workshop, clique **[AQUI](../workshop-demo-02/01-intro.md)**.
+If you want to go further, make the `workshop-demo-02`. There we will go into the `Reminder` page. A page that will inform you each 60 minutes to take a break. If you want to make this workshop, click **[here](../workshop-demo-02/01-intro.md)**
 
-Se vocês desejam saber mais sobre Microsoft Graph, temos inúmeros tutoriais e Learn Modules sobre o assunto. Aqui estão alguns links para vocês:
+If you want to learn more about Microsoft Graph, we have a lot of free courses and Learn Modules about it. Below you can see some interesting resources and links:
 
 - **[Microsoft Graph Fundalmentals](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-fundamentals/)**
   
@@ -20,7 +20,7 @@ Se vocês desejam saber mais sobre Microsoft Graph, temos inúmeros tutoriais e 
   
 - **[Build apps with Microsoft Graph – Associate](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-associate/)**
 
-E, nos vemos no próximo workshop! 😊
+And, see you in the next workshop! 😊
 
 **[⬅️ Back: Session 08](./08-session.md)**
 | **[Next: Reminder App ➡️](../workshop-demo-02/01-intro.md)**
