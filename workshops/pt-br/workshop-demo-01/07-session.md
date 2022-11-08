@@ -202,5 +202,5 @@ export default async function handler(
 Ufa! Estamos quase terminando! Porém, precisamos fazer algumas alterações importantes nas páginas de `Admin` e `Reminder`. Vejamos isso na próxima seção.
 
 **[⬅️ Voltar: Sessão 06](./06-session.md)**
-| **[➡️ Próximo: Sessão 08](./08-session.md)**
+| **[Próximo: Sessão 08 ➡️](./08-session.md)**
 

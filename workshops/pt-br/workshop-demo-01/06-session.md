@@ -236,4 +236,4 @@ Agora execute a aplicação e abre o navegador e acesse a página `http://localh
 Há importantes arquivos que precisaremos criar na aplicação. Mas, vamos deixar isso para a próxima sessão.
 
 **[⬅️ Voltar: Sessão 05](./05-session.md)**
-| **[➡️ Próximo: Sessão 07](./07-session.md)**
+| **[Próximo: Sessão 07 ➡️](./07-session.md)**

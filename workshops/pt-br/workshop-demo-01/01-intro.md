@@ -40,7 +40,7 @@ Se você tiver dúvidas em como criar a conta, você pode assistir esse vídeo *
 | **[Sessão 07]()**                                                                     | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
 | **[Sessão 08]()**                                                                     | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
 
-**[➡️ Próximo: Sessão 02](./02-session.md)**
+**[Próximo: Sessão 02 ➡️](./02-session.md)**
 
 
 

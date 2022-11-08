@@ -97,4 +97,4 @@ Agora, vamos para o próximo passo.
 
 
 **[⬅️ Voltar: Intro](./01-intro.md)**
-| **[➡️ Próximo: Sessão 03](./03-session.md)**
+| **[Próximo: Sessão 03 ➡️](./03-session.md)**

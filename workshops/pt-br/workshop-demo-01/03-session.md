@@ -39,4 +39,4 @@ Também, se desejar saber mais sobre o NextAuth, você pode acessar esse link **
 Agora podemos enfim, começar a criar alguns componentes para a nossa aplicação. Porém, faremos isso na próxima seção.
 
 **[⬅️ Voltar: Sessão 02](./02-session.md)**
-| **[➡️ Próximo: Sessão 04](./04-session.md)**
+| **[Próximo: Sessão 04 ➡️](./04-session.md)**

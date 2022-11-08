@@ -370,4 +370,4 @@ npm run dev
 Você verá que a tela continua a mesma. Mas, por que? Porque ainda não criamos as páginas da aplicação. Faremos isso na próxima seção.
 
 **[⬅️ Voltar: Sessão 03](./03-session.md)**
-| **[➡️ Próximo: Sessão 05](./05-session.md)**
+| **[Próximo: Sessão 05 ➡️](./05-session.md)**
