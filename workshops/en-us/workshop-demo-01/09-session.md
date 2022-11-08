@@ -22,6 +22,9 @@ Se vocês desejam saber mais sobre Microsoft Graph, temos inúmeros tutoriais e 
 
 E, nos vemos no próximo workshop! 😊
 
+**[⬅️ Back: Session 08](./08-session.md)**
+| **[➡️ Next: Reminder App](../workshop-demo-02/01-intro.md)**
+
 
 
 
