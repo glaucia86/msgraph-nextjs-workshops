@@ -65,7 +65,7 @@ export const config = { matcher: ['/reminder'] };
 
 Vamos entender o código acima. Importamos o `withAuth` do `next-auth/middleware` e, em seguida, e no `authorized`. Logo após, passamos o `req` e o `token` como parâmetros. E no `if` verificamos se o `req.nextUrl.pathname` é igual a `/admin`. Caso seja, retornaremos o `token?.userRole`. Caso contrário, retornaremos o `token`. Ou seja, se o usuário for um `admin`, ele poderá acessar a página `/admin` e, se não, ele poderá acessar a página `/reminder`, se estiver autenticado.
 
-Se vocês desejam saber mais sobre o `middleware.ts`, podem acessar o seguinte link: [AQUI](https://next-auth.js.org/configuration/nextjs#middleware)
+Se vocês desejam saber mais sobre o `middleware.ts`, podem acessar o seguinte link: **[AQUI](https://next-auth.js.org/configuration/nextjs#middleware)**
 
 Vamos agora fazer algumas alterações no arquivo `admin.tsx`. Altere o código para o seguinte:
 
