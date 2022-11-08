@@ -236,4 +236,4 @@ Now run again the application and check the result:
 There's some important files that we need to create. But let's leave it for the next section. 😊
 
 **[⬅️ Back: Session 05](./05-session.md)**
-| **[➡️ Next: Session 07](./07-session.md)**
+| **[Next: Session 07 ➡️](./07-session.md)**

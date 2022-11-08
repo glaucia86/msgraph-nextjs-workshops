@@ -203,4 +203,4 @@ Phew! We are almost done! However, there's some important changes that we need t
 
 
 **[⬅️ Back: Session 06](./06-session.md)**
-| **[➡️ Next: Sessão 08](./08-session.md)**
+| **[Next: Sessão 08 ➡️](./08-session.md)**

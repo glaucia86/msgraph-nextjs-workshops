@@ -103,3 +103,6 @@ And finally let's open the browser and go to the following URL: `http://localhos
 ![gif-01](./../../workshop-images/images-demo-01/gif-01.gif)
 
 And finally, we finished the application! 🎉🎉🎉
+
+**[⬅️ Back: Session 07](./07-session.md)**
+| **[Next: Session 09 ➡️](./09-session.md)**

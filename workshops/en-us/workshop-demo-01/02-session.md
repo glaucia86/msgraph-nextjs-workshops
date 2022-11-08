@@ -91,4 +91,4 @@ Now, let's go to the next session!
 
 
 **[⬅️ Back: Intro](./01-intro.md)**
-| **[➡️ Next: Session 03](./03-session.md)**
+| **[Next: Session 03 ➡️](./03-session.md)**

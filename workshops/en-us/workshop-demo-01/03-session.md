@@ -39,4 +39,4 @@ Also, if you want to know more about NextAuth, you can read the documentation **
 Now we can finally start to create some components for our application. But we will do that in the next section.
 
 **[⬅️ Back: Session 02](./02-session.md)**
-| **[➡️ Next: Session 04](./04-session.md)**
+| **[Next: Session 04 ➡️](./04-session.md)**
