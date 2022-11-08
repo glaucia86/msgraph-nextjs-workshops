@@ -33,12 +33,14 @@ Se você tiver dúvidas em como criar a conta, você pode assistir esse vídeo *
 | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | **[Sessão 01 - Introdução](01-intro.md)**                                             | Aqui você terá a introdução do workshop.                                                                                                        |
 | **[Sessão 02 - Configurando uma Aplicação no Azure Active Directory](02-session.md)** | Aqui você aprenderá a criar uma aplicação no AAD e configurar as permissões necessárias para que a aplicação possa acessar os dados do usuário. |  |
-| **[Sessão 03]()**                                                                     | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
-| **[Sessão 04]()**                                                                     | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
-| **[Sessão 05]()**                                                                     | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
-| **[Sessão 06]()**                                                                     | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
-| **[Sessão 07]()**                                                                     | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
-| **[Sessão 08]()**                                                                     | jkdsjkdjksdjksjdksjdkjsakdjs                                                                                                                    |
+| **[Sessão 03 - Estruturando o Projeto](03-session.md)**                               |
+| Nessa sessão vamos estruturar o projeto usando o Next.Js                              |
+| **[Sessão 04 - Criando Componentes na Aplicação](04-session.md)**                     | Nessa sessão vamos criar os componentes que serão utilizados na aplicação.                                                                      |
+| **[Sessão 05 - Definindo AAD Provider no NextAuth](05-session.md)**                   | Nessa sessão vamos definir o AAD Provider no NextAuth.                                                                                          |
+| **[Sessão 06](06-session.md)**                                                        | Nessa sessão vamos criar as páginas da aplicação.                                                                                               |
+| **[Sessão 07 - Criando arquivos de Configuração](07-session.md)**                     | Nessa sessão vamos criar os arquivos de configuração da nossa aplicação.                                                                        |
+| **[Sessão 08 - Importantes mudanças nas páginas Admin & Reminder](08-session.md)**    | Nessa sessão vamos fazer algumas alterações importantes nas páginas `Admin` e `Reminder`.                                                       |
+| **[Sessão 09 - Próximos Passos e Conclusão](09-session.md)**                          | E, finalmente quais são os próximos passos e alguns recursos e cursos gratuitos sobre Microsoft Graph!                                          |
 
 **[Próximo: Sessão 02 ➡️](./02-session.md)**
 

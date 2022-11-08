@@ -1,4 +1,4 @@
-# Próximos Passos e Palavras Finais
+# Próximos Passos e Conclusão
 
 Esperamos que você tenha gostado do workshop e que tenha aprendido algo novo. Se você tiver alguma dúvida, não hesite em nos contatar.
 
@@ -16,8 +16,8 @@ Se vocês desejam saber mais sobre Microsoft Graph, temos inúmeros tutoriais e 
 
 E, nos vemos no próximo workshop! 😊
 
-**[⬅️ Back: Session 08](./08-session.md)**
-| **[Next: Reminder App ➡️](../workshop-demo-02/01-intro.md)**
+**[⬅️ Voltar: Session 08](./08-session.md)**
+| **[Próximo: Reminder App ➡️](../workshop-demo-02/01-intro.md)**
 
 
 
