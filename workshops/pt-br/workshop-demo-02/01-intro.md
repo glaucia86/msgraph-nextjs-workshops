@@ -33,17 +33,17 @@ Caso você não tenha acompanhado o workshop anterior, você pode baixar o kit d
 ## Sessões
 
 
-| Sessão                                                                                | Tópicos                                                                                                                                         |
-| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **[Sessão 01 - Introdução](01-intro.md)**                                             | Aqui você terá a introdução do workshop.                                                                                                        |
-| **[Sessão 02 - Configurando uma Aplicação no Azure Active Directory](02-session.md)** | Aqui você aprenderá a criar uma aplicação no AAD e configurar as permissões necessárias para que a aplicação possa acessar os dados do usuário. |
-| **[Sessão 03 - Estruturando o Projeto](03-session.md)**                               | Nessa sessão vamos estruturar o projeto usando o Next.Js                                                                                        |
-| **[Sessão 04 - Criando Componentes na Aplicação](04-session.md)**                     | Nessa sessão vamos criar os componentes que serão utilizados na aplicação                                                                       |
-| **[Sessão 05 - Definindo AAD Provider no NextAuth](05-session.md)**                   | Nessa sessão vamos definir o AAD Provider no NextAuth.                                                                                          |
-| **[Sessão 06 - Criando as páginas da aplicação](06-session.md)**                      | Nessa sessão vamos criar as páginas da aplicação.                                                                                               |
-| **[Sessão 07 - Criando arquivos de Configuração](07-session.md)**                     | Nessa sessão vamos criar os arquivos de configuração da nossa aplicação.                                                                        |
-| **[Sessão 08 - Importantes mudanças nas páginas Admin & Reminder](08-session.md)**    | Nessa sessão vamos fazer algumas alterações importantes nas páginas `Admin` e `Reminder`.                                                       |
-| **[Sessão 09 - Próximos Passos e Conclusão](09-session.md)**                          | E, finalmente quais são os próximos passos e alguns recursos e cursos gratuitos sobre Microsoft Graph!                                          |
+| Sessão                                                                                | Tópicos                                                                                                                                                           |
+| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Sessão 01 - Introdução](01-intro.md)**                                             | Aqui você terá a introdução do workshop.                                                                                                                          |
+| **[Sessão 02 - Configurando uma Aplicação no Azure Active Directory](02-session.md)** | Aqui você aprenderá a criar uma aplicação no AAD e configurar as permissões necessárias para que a aplicação possa acessar os dados do usuário.                   |
+| **[Sessão 03 - Instalando dependências do Kit Get Starte](03-session.md)**            | Nessa sessão, vamos instalar as dependências do projeto que iremos trabalhar nesse workshop.                                                                      |
+| **[Sessão 04 - Alteração no arquivo `[...nextauth].ts ](04-session.md)**              | Nessa sessão, vamos entender o que foi feito no arquivo [...nextauth].ts                                                                                          |
+| **[Sessão 05 - Desenvolvendo a API GetPresence](05-session.md)**                      | Nessa sessão, vamos desenvolver a API que irá retornar o status de presença do usuário. Para isso, vamos utilizar o Client do Microsoft Graph.                    |
+| **[Sessão 06 - Alterando a Página Reminder](06-session.md)**                          | Nessa sessão, vamos alterar a página `reminder.tsx` para que ela possa consumir a API que criamos anteriormente.                                                  |
+| **[Sessão 07 - Criando o arquivo de Interface para JWT](07-session.md)**              | Nessa sessão, vamos criar o arquivo de interface para o JWT. Esse arquivo é necessário para que o TypeScript saiba como interpretar o JWT que o NextAuth retorna. |
+| **[Sessão 08 - Próximos Passos e Conclusão](08-session.md)**                          | E, finalmente quais são os próximos passos e alguns recursos e cursos gratuitos sobre Microsoft Graph!                                                            |
+
 
 **[Próximo: Sessão 02 ➡️](./02-session.md)**
 
