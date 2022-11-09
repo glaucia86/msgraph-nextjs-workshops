@@ -32,7 +32,7 @@ export default function ReminderPage() {
       return;
     }
 
-    setTimeout(timerIsOver, 10_000);
+    setTimeout(timerIsOver, 120000);
 
     setIsTimerStarted(true);
   };
