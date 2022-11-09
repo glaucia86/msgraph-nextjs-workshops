@@ -55,7 +55,7 @@ Now, let's go to the step by step!
 
 10. Click on **Microsoft Graph** amd then on **Delegated permissions**.
 
-[![image-10.png](https://i.postimg.cc/bwdQrC1t/image-10.png)](https://postimg.cc/K1SKs5qG)
+![image-101.png](./../../workshop-images/images-demo-01/image-101.png)
 
 11. Select the following permissions and click on **Add permissions**.
 

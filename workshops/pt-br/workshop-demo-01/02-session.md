@@ -56,8 +56,8 @@ Precisaremos desses dados para configurar a aplicação no `env.local`.
 ![image-09](./../../workshop-images/images-demo-01/image-09.png)
 
 11. Selecione **Microsoft Graph** e clique em **Delegated permissions**.
-
-[![image-10.png](https://i.postimg.cc/bwdQrC1t/image-10.png)](https://postimg.cc/K1SKs5qG)
+    
+![image-101.png](./../../workshop-images/images-demo-01/image-101.png)
 
 12.  Selecione as seguintes permissões:
 
