@@ -1,6 +1,6 @@
 # Workshop: Take a Break Reminder App
 
-![authentication-image](./../../workshop-images/reminder.gif)
+![reminder-gif](./../../workshop-images/reminder.gif)
 
 ## Introduction
 
@@ -34,16 +34,16 @@ If you not completed the previous workshop, you can download the kit from this l
 ## Sessions
 
 
-| Session                                                                                | Topics                                                                                                                                              |
-| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **[Session 01 - Introduction](01-intro.md)**                                           | Here you will have an introduction to the workshop.                                                                                                 |
-| **[Session 02 - Configuring an Application in Azure Active Directory](02-session.md)** | Here you will learn how to create an application in AAD and configure the necessary permissions so that the application can access the user's data. |  |
-| **[Session 03 - Structuring the Project](03-session.md)**                              | In this in this session, we will create the project structure and configure the environment.                                                        |
-| **[Session 04 - Creating the Application Components](04-session.md)**                  | In this session, we will create the components that will be used in the application.                                                                |
-| **[Session 05 - Defining AAD Provider in Next.js](05-session.md)**                     | In this session we will define the AAD Provider in Next.js.                                                                                         |
-| **[Session 06 - Creating the pages for the application](06-session.md)**               | In this session, we are going to create the pages for the application.                                                                              |
-| **[Session 07 - Creating Configuration Files](07-session.md)**                         | In this session we will create the configuration files for our application.                                                                         |
-| **[Session 08 - Important changes in the Admin & Reminder Pages](08-session.md)**      | In this session we will make some important changes in the `Admin` and `Reminder` pages.                                                            |
-| **[Session 09 - Next Steps & Conclusion](09-session.md)**                              | And finally what is the next steps and some important links and resources.                                                                          |
+| Session                                                                                | Topics                                                                                                                                                                  |
+| -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Session 01 - Introduction](01-intro.md)**                                           | Here you will have an introduction to the workshop.                                                                                                                     |
+| **[Session 02 - Configuring an Application in Azure Active Directory](02-session.md)** | Here you will learn how to create an application in AAD and configure the necessary permissions so that the application can access the user's data.                     |  |
+| **[Session 03 - Installing dependencies from the Kit Get Started](03-session.md)**     | In this session we will install the dependencies from the kit get started.                                                                                              |
+| **[Session 04 - Changing [...nextauth].ts file](04-session.md)**                       | In this session we will change the `nextauth.ts` file. This file is responsible for configuring the NextAuth.js library.                                                |
+| **[Session 05 - Developing the GetPresence API](05-session.md)**                       | In this session we will be developing the `GetPresence` API. This API will be responsible for getting the presence of the user who is logged in.                        |
+| **[Session 06 - Important Changes in the Reminder Page](06-session.md)**               | In this session, we will make some important changes in the `Reminder` page.                                                                                            |
+| **[Session 07 - Creating the Interface file for JWT](07-session.md)**                  | In this session we will create an interface file for our application. This file will be responsible for configuring the JWT token that will be used in our application. |
+| **[Session 08 - Next Steps & Conclusion](08-session.md)**                              | And finally what is the next steps and some important links and resources.                                                                                              |
+
 
 **[Next: Session 02 ➡️](./02-session.md)**
