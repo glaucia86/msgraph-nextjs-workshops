@@ -62,6 +62,14 @@ Na parte de `authorization`, incluímos o seguinte parâmetro:
 
 - `scope`: é o escopo que você deseja que o usuário autorize. Nesse caso, estamos solicitando que o usuário autorize que a aplicação consiga acessar os dados do perfil do usuário, o endereço de e-mail e o status de presença do usuário.
 
+E dentro desses scopes, incluímos o seguinte:
+
+- `Presence.Read`: é o escopo que permite que a aplicação acesse o status de presença do usuário.
+- `offline_access`: é o escopo que permite que a aplicação acesse o token de atualização do usuário.
+- `profile`: é o escopo que permite que a aplicação acesse os dados do perfil do usuário.
+- `email`: é o escopo que permite que a aplicação acesse o endereço de e-mail do usuário.
+- `openid`: é o escopo que permite que a aplicação acesse o ID do usuário.
+
 Já em `callbacks`, estamos retornando o `accessToken` e o `refreshToken` para que possamos utilizar esses dados para fazer as chamadas ao Microsoft Graph.
 
 Essa será a única mudança que precisaremos fazer nesse arquivo. Porém, precisamos fazer a chamada do `Client` do Microsoft Graph. Vamos fazer isso na próxima sessão.
