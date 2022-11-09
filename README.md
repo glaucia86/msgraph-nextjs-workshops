@@ -17,7 +17,7 @@ Welcome to the Microsoft Graph JavaScript SDK with Next.js Workshops. In this re
 - **[Node.Js 16.x](https://nodejs.org/en/)**
 - **[Next.Js](https://nextjs.org/learn/foundations/about-nextjs)**
 
-## 📚 How to Follow the Workshops?
+## 📚 How to Follow these Workshops?
 
 The workshops was written in a way that you can follow it in order. However, you can also jump to a specific workshop if you want to learn a specific topic. And also, if you want to translate the workshops to your language, you can do it by following the **[Translation Guide](translation-guide.md)**.
 
