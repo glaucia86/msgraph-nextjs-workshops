@@ -32,7 +32,8 @@ export default function ReminderPage() {
       return;
     }
 
-    setTimeout(timerIsOver, 120000);
+    // 60 minutes == 3600000
+    setTimeout(timerIsOver, 10_000);
 
     setIsTimerStarted(true);
   };
