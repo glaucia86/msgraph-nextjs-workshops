@@ -37,7 +37,7 @@ If you have doubt how to create it, you can watch this video **[LINK HERE](https
 | **[Session 04 - Creating the Application Components](04-session.md)**                  | In this session, we will create the components that will be used in the application.                                                                |
 | **[Session 05 - Defining AAD Provider in Next.js](05-session.md)**                     | In this session we will define the AAD Provider in Next.js.                                                                                         |
 | **[Session 06 - Creating the pages for the application](06-session.md)**               | In this session, we are going to create the pages for the application.                                                                              |
-| **[Session 07 - Creating Configuration Files](07-session.md)**                         | In this session we will create the configuration files for our application.                                                                         |
+| **[Session 07 - Creating the Configuration Files](07-session.md)**                         | In this session we will create the configuration files for our application.                                                                         |
 | **[Session 08 - Important changes in the Admin & Reminder Pages](08-session.md)**      | In this session we will make some important changes in the `Admin` and `Reminder` pages.                                                            |
 | **[Session 09 - Next Steps & Conclusion](09-session.md)**                              | And finally what is the next steps and some important links and resources.                                                                          |
 

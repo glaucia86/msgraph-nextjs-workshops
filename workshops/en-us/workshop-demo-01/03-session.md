@@ -5,7 +5,7 @@ Once we already created our application on the Azure Portal, we can start to cod
 Open your terminal and run the following command:
 
 ```bash
-npx create-next-app reminder-app --typescript 
+npx create-next-app auth-app --typescript 
 ```
 
 Now we already have our application created, let's execute it to see if everything is working.

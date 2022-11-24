@@ -38,11 +38,7 @@ Let your status as `Available`.
 
 Return to the application and click in the `Start Timer` button. Wait for 2 minutes. After that, an alert message will pop up in your screen saying: `Take a break!`.
 
-But if the user has a status differente from `Available`? What will happen? If you try to click in the `Start Timer`, it will inform you that you're `Offline` or `Busy` or any other status differente from `Available`.
-
-See in action with gif below:
-
-**(colocar todo o processo da aplicação via gif)**
+But if the user has a status differente from `Available`? What will happen? If you try to click in the `Start Timer`, it will inform you that you're `Offline` or `Busy` or any other status different from `Available`.
 
 And, congratulations! You have created a simple application that uses the Microsoft Graph API to get the user status and the NextAuth to authenticate the user. 
 

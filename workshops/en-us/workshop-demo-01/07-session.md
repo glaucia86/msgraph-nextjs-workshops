@@ -1,4 +1,4 @@
-# Creating Configuration Files
+# Creating the Configuration Files
 
 Now in the root of the project, let's create a file called `process.d.ts`. This file is responsible for adding the environment variables that we created previously. So, add the following code:
 
